@@ -99,7 +99,7 @@ img { display: block; max-width: 100%; }
 .note { margin-top: 40px; padding: 20px 24px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); }
 
 /* Footer */
-.site-footer { border-top: 1px solid var(--line); padding: 56px 0 40px; font-size: 14px; }
+.site-footer { padding: 56px 0 40px; font-size: 14px; }
 .site-footer .cols { display: grid; grid-template-columns: repeat(6, 1fr); gap: 32px; }
 .site-footer h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 12px; font-weight: 400; }
 .site-footer li { list-style: none; margin-bottom: 6px; }

@@ -9,7 +9,7 @@ Q = "/w=1920,quality=90,fit=scale-down"
 
 RESUME = "https://drive.google.com/file/d/1acHskjJDS2ccZEZ6G4T8H_sam3_hk7ib/view?usp=sharing"
 LINKEDIN = "https://www.linkedin.com/in/mariagraziani/"
-EMAIL = "mailto:"  # TODO: add your email, e.g. mailto:you@example.com
+EMAIL = "mailto:megraziani@gmail.com"
 
 HERO = ("Hi! I’m Mery, a Product Designer who turns business goals into thoughtful, "
         "user-centered experiences — with a visual eye, a strategic mind, and a love for AI.")

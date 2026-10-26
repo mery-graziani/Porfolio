@@ -94,8 +94,6 @@ img { display: block; max-width: 100%; }
 .stats { display: flex; gap: 48px; flex-wrap: wrap; margin-top: 32px; }
 .stat b { display: block; font-size: clamp(32px, 5vw, 52px); letter-spacing: -0.03em; line-height: 1.1; }
 .stat span { color: var(--muted); font-size: 15px; }
-.pager { display: flex; justify-content: space-between; gap: 16px; padding: 56px 0 96px; font-size: 15px; }
-.pager a { border-bottom: 1px solid var(--text); padding-bottom: 2px; }
 .note { margin-top: 40px; padding: 20px 24px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); }
 
 /* Footer */

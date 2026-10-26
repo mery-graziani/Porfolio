@@ -202,13 +202,6 @@ for i, p in enumerate(PROJECTS):
             paras = f"<ul>{paras}</ul>"
         stats = "".join(f'<div class="stat"><b>{e(v)}</b><span>{e(l)}</span></div>' for v, l in p["stats"])
         body += f'<div class="impact"><h2>Impact</h2>{paras}<div class="stats">{stats}</div></div></section>'
-    order = FOOTER_ORDER  # navigate in the same sequence as the footer
-    idx = order.index(p["slug"])
-    prev_s = order[idx - 1] if idx > 0 else None
-    next_s = order[idx + 1] if idx < len(order) - 1 else None
-    prev_a = f'<a href="../{prev_s}/">← {e(NAMES[prev_s])}</a>' if prev_s else "<span></span>"
-    next_a = f'<a href="../{next_s}/">{e(NAMES[next_s])} →</a>' if next_s else "<span></span>"
-    body += f'<div class="wrap pager">{prev_a}{next_a}</div>'
     write(f'{p["slug"]}/index.html',
           page(f'{p["name"]} — Mery Graziani', body, 1, "projects", p["summary"] or "Case study"))
 

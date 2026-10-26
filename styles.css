@@ -43,7 +43,7 @@ img { display: block; max-width: 100%; }
 .nav a:hover, .nav a[aria-current="page"] { color: var(--text); }
 
 /* Hero */
-.hero { padding: 96px 0 56px; }
+.hero { padding-top: 96px; padding-bottom: 56px; }
 .hero h1 {
   font-size: clamp(28px, 4.4vw, 48px);
   line-height: 1.18;
@@ -64,7 +64,7 @@ img { display: block; max-width: 100%; }
 .card h3 { margin-top: 14px; font-size: 16px; font-weight: 400; letter-spacing: 0.01em; }
 
 /* About */
-.about { padding: 96px 0 24px; }
+.about { padding-top: 96px; padding-bottom: 24px; }
 .about h1 { font-size: clamp(36px, 6vw, 64px); letter-spacing: -0.03em; line-height: 1.05; }
 .about .lead {
   font-size: clamp(20px, 2.6vw, 28px); line-height: 1.35; font-weight: 400;
@@ -75,7 +75,7 @@ img { display: block; max-width: 100%; }
 .pillars p { color: var(--muted); font-size: 15px; }
 
 /* Case study */
-.case-head { padding: 80px 0 32px; }
+.case-head { padding-top: 80px; padding-bottom: 32px; }
 .case-head h1 { font-size: clamp(30px, 5vw, 52px); line-height: 1.1; letter-spacing: -0.03em; max-width: 860px; }
 .case-head .summary { margin-top: 20px; font-size: 19px; color: var(--muted); max-width: 760px; }
 .meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 28px 0; margin-top: 36px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }

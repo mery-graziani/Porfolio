@@ -4,8 +4,8 @@
   --muted: #6b6b6b;
   --line: #e8e8e6;
   --card: #f5f5f3;
-  --max: 1120px;
-  --gutter: 24px;
+  --max: none;
+  --gutter: 50px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -114,4 +114,8 @@ img { display: block; max-width: 100%; }
   .phase { grid-template-columns: 1fr; gap: 8px; }
   .site-footer .cols { grid-template-columns: 1fr; }
   .hero, .about { padding-top: 56px; }
+}
+
+@media (max-width: 600px) {
+  :root { --gutter: 24px; }
 }
